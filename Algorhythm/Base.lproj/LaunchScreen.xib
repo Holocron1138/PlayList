@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eCV-Hj-On9">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="240"/>
+                    <color key="backgroundColor" red="0.1803921568627451" green="0.20392156862745098" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k2d-y7-D9O">
+                    <rect key="frame" x="0.0" y="240" width="480" height="240"/>
+                    <color key="backgroundColor" red="0.12549019607843137" green="0.14117647058823529" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="9os-xl-OTs">
+                    <rect key="frame" x="180" y="180" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="8FP-sc-aKm"/>
+                        <constraint firstAttribute="width" constant="120" id="gNy-8I-xEM"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="k2d-y7-D9O" secondAttribute="trailing" id="0OE-Wx-3yU"/>
+                <constraint firstAttribute="centerY" secondItem="9os-xl-OTs" secondAttribute="centerY" id="8Fr-g2-DPU"/>
+                <constraint firstAttribute="trailing" secondItem="eCV-Hj-On9" secondAttribute="trailing" id="8Uy-bH-09k"/>
+                <constraint firstItem="k2d-y7-D9O" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9Z5-df-qc7"/>
+                <constraint firstAttribute="centerX" secondItem="9os-xl-OTs" secondAttribute="centerX" id="Aot-e9-6hh"/>
+                <constraint firstItem="eCV-Hj-On9" firstAttribute="height" secondItem="k2d-y7-D9O" secondAttribute="height" id="GZm-bd-4VO"/>
+                <constraint firstItem="eCV-Hj-On9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HnZ-Ys-LNF"/>
+                <constraint firstItem="k2d-y7-D9O" firstAttribute="height" secondItem="eCV-Hj-On9" secondAttribute="height" id="Ktf-zo-Y5u"/>
+                <constraint firstItem="k2d-y7-D9O" firstAttribute="top" secondItem="eCV-Hj-On9" secondAttribute="bottom" id="MRm-VO-PPo"/>
+                <constraint firstItem="eCV-Hj-On9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OF4-9Y-6H8"/>
+                <constraint firstItem="eCV-Hj-On9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Rx7-n3-0W6"/>
+                <constraint firstItem="eCV-Hj-On9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TgX-80-eN4"/>
+                <constraint firstItem="k2d-y7-D9O" firstAttribute="top" secondItem="eCV-Hj-On9" secondAttribute="bottom" id="atm-lW-INR"/>
+                <constraint firstItem="k2d-y7-D9O" firstAttribute="top" secondItem="eCV-Hj-On9" secondAttribute="bottom" id="cti-Ik-DDz"/>
+                <constraint firstAttribute="bottom" secondItem="k2d-y7-D9O" secondAttribute="bottom" id="d0m-Tp-f04"/>
+                <constraint firstAttribute="trailing" secondItem="eCV-Hj-On9" secondAttribute="trailing" id="emF-a1-nXA"/>
+                <constraint firstItem="eCV-Hj-On9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fGk-wj-ZeC"/>
+                <constraint firstItem="k2d-y7-D9O" firstAttribute="top" secondItem="eCV-Hj-On9" secondAttribute="bottom" id="g4i-J6-ugO"/>
+                <constraint firstAttribute="trailing" secondItem="eCV-Hj-On9" secondAttribute="trailing" id="lig-SJ-x3V"/>
+                <constraint firstItem="eCV-Hj-On9" firstAttribute="height" secondItem="k2d-y7-D9O" secondAttribute="height" id="nAo-Vk-QBv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="GZm-bd-4VO"/>
+                    <exclude reference="HnZ-Ys-LNF"/>
+                    <exclude reference="OF4-9Y-6H8"/>
+                    <exclude reference="Rx7-n3-0W6"/>
+                    <exclude reference="emF-a1-nXA"/>
+                    <exclude reference="lig-SJ-x3V"/>
+                    <exclude reference="Ktf-zo-Y5u"/>
+                    <exclude reference="MRm-VO-PPo"/>
+                    <exclude reference="atm-lW-INR"/>
+                    <exclude reference="cti-Ik-DDz"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Launch Icon" width="120" height="120"/>
+    </resources>
+</document>
